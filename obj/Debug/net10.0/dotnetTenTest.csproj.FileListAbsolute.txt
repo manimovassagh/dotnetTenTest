@@ -31,3 +31,5 @@
 /Users/mani/Documents/Projects/dotnetTenTest/obj/Debug/net10.0/dotnetTenTest.pdb
 /Users/mani/Documents/Projects/dotnetTenTest/obj/Debug/net10.0/dotnetTenTest.genruntimeconfig.cache
 /Users/mani/Documents/Projects/dotnetTenTest/obj/Debug/net10.0/ref/dotnetTenTest.dll
+/Users/mani/Documents/Projects/dotnetTenTest/bin/Debug/net10.0/global.json
+/Users/mani/Documents/Projects/dotnetTenTest/bin/Debug/net10.0/Scalar.AspNetCore.dll

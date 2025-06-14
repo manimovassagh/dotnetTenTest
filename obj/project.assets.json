@@ -37,18 +37,21 @@
           }
         }
       },
-      "Scaler/1.0.0.2": {
+      "Scalar.AspNetCore/2.4.16": {
         "type": "package",
         "compile": {
-          "lib/net48/AjaxPro.2.dll": {},
-          "lib/net48/Scaler.dll": {},
-          "lib/net48/VTemplate.Engine.dll": {}
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net48/AjaxPro.2.dll": {},
-          "lib/net48/Scaler.dll": {},
-          "lib/net48/VTemplate.Engine.dll": {}
-        }
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -89,26 +92,28 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "Scaler/1.0.0.2": {
-      "sha512": "/PakIzhONalLl4oU3JR8MkYwi9bbnSMw9a4VEGVmSC721K+sP2EwCpASEvX6JhSFfjNjU3YfB2UoBlXNZ+FIYQ==",
+    "Scalar.AspNetCore/2.4.16": {
+      "sha512": "8CcEuocl5/CpNs/mVf6OkzdNIVg7NzKdpZDqQZknJU7UI9Pklt7WeRl4p7/+blnI/RNM6mGFlzIFQUQ4j80FcA==",
       "type": "package",
-      "path": "scaler/1.0.0.2",
+      "path": "scalar.aspnetcore/2.4.16",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ScalerIcon.png",
-        "lib/net48/AjaxPro.2.dll",
-        "lib/net48/Scaler.dll",
-        "lib/net48/VTemplate.Engine.dll",
-        "scaler.1.0.0.2.nupkg.sha512",
-        "scaler.nuspec"
+        "README.md",
+        "icon.png",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.4.16.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.OpenApi >= 10.0.0-preview.5.25277.114",
-      "Scaler >= 1.0.0.2"
+      "Scalar.AspNetCore >= 2.4.16"
     ]
   },
   "packageFolders": {
@@ -158,9 +163,9 @@
             "target": "Package",
             "version": "[10.0.0-preview.5.25277.114, )"
           },
-          "Scaler": {
+          "Scalar.AspNetCore": {
             "target": "Package",
-            "version": "[1.0.0.2, )"
+            "version": "[2.4.16, )"
           }
         },
         "imports": [
@@ -598,17 +603,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Scaler 1.0.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Scaler",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

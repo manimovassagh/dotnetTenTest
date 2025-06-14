@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v10.0": {
       "dotnetTenTest/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "10.0.0-preview.5.25277.114"
+          "Microsoft.AspNetCore.OpenApi": "10.0.0-preview.5.25277.114",
+          "Scalar.AspNetCore": "2.4.16"
         },
         "runtime": {
           "dotnetTenTest.dll": {}
@@ -30,6 +31,14 @@
           "lib/net8.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Scalar.AspNetCore/2.4.16": {
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "2.4.16.0",
+            "fileVersion": "2.4.16.0"
           }
         }
       }
@@ -54,6 +63,13 @@
       "sha512": "sha512-QhgWviPuAciE8MVp8gFFyNjjSfrfF4NSLFHcLW/lpfJ9DkOdc8RdNAhe7XYHQebDA3s6jw+pdkH4WBDUUYjvlA==",
       "path": "microsoft.openapi/2.0.0-preview.18",
       "hashPath": "microsoft.openapi.2.0.0-preview.18.nupkg.sha512"
+    },
+    "Scalar.AspNetCore/2.4.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8CcEuocl5/CpNs/mVf6OkzdNIVg7NzKdpZDqQZknJU7UI9Pklt7WeRl4p7/+blnI/RNM6mGFlzIFQUQ4j80FcA==",
+      "path": "scalar.aspnetcore/2.4.16",
+      "hashPath": "scalar.aspnetcore.2.4.16.nupkg.sha512"
     }
   }
 }
