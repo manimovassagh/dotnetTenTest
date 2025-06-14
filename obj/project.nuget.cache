@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dGEHDWjAetc=",
+  "success": true,
+  "projectFilePath": "/Users/mani/Documents/Projects/dotnetTenTest/dotnetTenTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/mani/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0-preview.5.25277.114/microsoft.aspnetcore.openapi.10.0.0-preview.5.25277.114.nupkg.sha512",
+    "/Users/mani/.nuget/packages/microsoft.openapi/2.0.0-preview.18/microsoft.openapi.2.0.0-preview.18.nupkg.sha512"
+  ],
+  "logs": []
+}
