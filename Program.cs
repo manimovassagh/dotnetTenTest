@@ -23,16 +23,14 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-app.MapGet("/", () =>
-{
+//awsome
+app.MapGet("/", () => new { message = "Hello from .NET!" })
+    .WithName("home");
+app.MapGet("/about", () => new { message = "About page" })
+    .WithName("about");
 
-})
-.WithName("GetWeatherForecast");
-app.MapGet("/mani", () =>
-{
-return "mani";  
-})
-.WithName("mani");
+
+
 
 app.Run();
 
