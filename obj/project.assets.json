@@ -36,6 +36,19 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Scaler/1.0.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net48/AjaxPro.2.dll": {},
+          "lib/net48/Scaler.dll": {},
+          "lib/net48/VTemplate.Engine.dll": {}
+        },
+        "runtime": {
+          "lib/net48/AjaxPro.2.dll": {},
+          "lib/net48/Scaler.dll": {},
+          "lib/net48/VTemplate.Engine.dll": {}
+        }
       }
     }
   },
@@ -75,11 +88,27 @@
         "microsoft.openapi.2.0.0-preview.18.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Scaler/1.0.0.2": {
+      "sha512": "/PakIzhONalLl4oU3JR8MkYwi9bbnSMw9a4VEGVmSC721K+sP2EwCpASEvX6JhSFfjNjU3YfB2UoBlXNZ+FIYQ==",
+      "type": "package",
+      "path": "scaler/1.0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ScalerIcon.png",
+        "lib/net48/AjaxPro.2.dll",
+        "lib/net48/Scaler.dll",
+        "lib/net48/VTemplate.Engine.dll",
+        "scaler.1.0.0.2.nupkg.sha512",
+        "scaler.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.0-preview.5.25277.114"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.0-preview.5.25277.114",
+      "Scaler >= 1.0.0.2"
     ]
   },
   "packageFolders": {
@@ -128,6 +157,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.0-preview.5.25277.114, )"
+          },
+          "Scaler": {
+            "target": "Package",
+            "version": "[1.0.0.2, )"
           }
         },
         "imports": [
@@ -565,5 +598,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Scaler 1.0.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Scaler",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

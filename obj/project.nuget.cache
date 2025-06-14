@@ -1,11 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "dGEHDWjAetc=",
+  "dgSpecHash": "HrHo5RT8JvE=",
   "success": true,
   "projectFilePath": "/Users/mani/Documents/Projects/dotnetTenTest/dotnetTenTest.csproj",
   "expectedPackageFiles": [
     "/Users/mani/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0-preview.5.25277.114/microsoft.aspnetcore.openapi.10.0.0-preview.5.25277.114.nupkg.sha512",
-    "/Users/mani/.nuget/packages/microsoft.openapi/2.0.0-preview.18/microsoft.openapi.2.0.0-preview.18.nupkg.sha512"
+    "/Users/mani/.nuget/packages/microsoft.openapi/2.0.0-preview.18/microsoft.openapi.2.0.0-preview.18.nupkg.sha512",
+    "/Users/mani/.nuget/packages/scaler/1.0.0.2/scaler.1.0.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Scaler 1.0.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/mani/Documents/Projects/dotnetTenTest/dotnetTenTest.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/mani/Documents/Projects/dotnetTenTest/dotnetTenTest.csproj",
+      "libraryId": "Scaler",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

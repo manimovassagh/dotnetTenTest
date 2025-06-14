@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.0-preview.5.25277.114, )"
+            },
+            "Scaler": {
+              "target": "Package",
+              "version": "[1.0.0.2, )"
             }
           },
           "imports": [
