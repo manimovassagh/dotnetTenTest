@@ -19,7 +19,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
 app.MapGet("/", () => new { message = "Hello from .NET!" })
     .WithName("home");
 app.MapGet("/about", () => new { message = "About page" })
