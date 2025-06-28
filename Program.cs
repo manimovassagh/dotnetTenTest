@@ -6,13 +6,14 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.MapScalarApiReference(options =>
     {
         options.Title = "Weather Forecast API";
-       
+
     });
 
 }
